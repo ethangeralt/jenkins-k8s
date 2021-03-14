@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sentinal-pod-k8s
+spec:
+  containers:
+     - name: sentinal-pod-k8s
+       image: ubuntu:latest
+
